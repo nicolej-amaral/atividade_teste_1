@@ -7,3 +7,5 @@ create table users (
     username varchar(225) not null,
     password varchar(255) not null
 );
+
+insert into users (username, password) values ('admin', '9898');
